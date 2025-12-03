@@ -2,12 +2,11 @@ flask
 flask-cors
 gunicorn
 
-torch==2.4.0
-
-diffusers==0.30.3
-transformers==4.45.2
-accelerate==0.34.2
-safetensors==0.4.5
-
+torch
+diffusers
+transformers
+accelerate
+safetensors
+xformers
 Pillow
 numpy
