@@ -1,1 +1,1 @@
-web: gunicorn sd_flask_server:app --timeout 200 --preload
+web: gunicorn sd_flask_server:app --bind 0.0.0.0:$PORT
