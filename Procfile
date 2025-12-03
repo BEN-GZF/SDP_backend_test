@@ -1,1 +1,1 @@
-web: gunicorn app:app --preload -w 2 -k gthread -b 0.0.0.0:$PORT
+web: gunicorn sd_flask_server:app --timeout 200 --preload
